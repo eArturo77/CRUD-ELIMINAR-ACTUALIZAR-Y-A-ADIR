@@ -1,0 +1,18 @@
+C:\Users\abrap\OneDrive\Documentos\profe emer\sql\1-\peliculas visual\Modelos\obj\Debug\Modelos.csproj.AssemblyReference.cache
+C:\Users\abrap\OneDrive\Documentos\profe emer\sql\1-\peliculas visual\Modelos\obj\Debug\Modelos.csproj.CoreCompileInputs.cache
+C:\Users\abrap\OneDrive\Documentos\profe emer\sql\1-\peliculas visual\Modelos\bin\Debug\Modelos.dll
+C:\Users\abrap\OneDrive\Documentos\profe emer\sql\1-\peliculas visual\Modelos\bin\Debug\Modelos.pdb
+C:\Users\abrap\OneDrive\Documentos\profe emer\sql\1-\peliculas visual\Modelos\bin\Debug\System.Data.SqlClient.dll
+C:\Users\abrap\OneDrive\Documentos\profe emer\sql\1-\peliculas visual\Modelos\bin\Debug\System.Data.SqlClient.xml
+C:\Users\abrap\OneDrive\Documentos\profe emer\sql\1-\peliculas visual\Modelos\obj\Debug\Modelos.csproj.Up2Date
+C:\Users\abrap\OneDrive\Documentos\profe emer\sql\1-\peliculas visual\Modelos\obj\Debug\Modelos.dll
+C:\Users\abrap\OneDrive\Documentos\profe emer\sql\1-\peliculas visual\Modelos\obj\Debug\Modelos.pdb
+C:\Users\Estudiante\Desktop\1-\peliculas visual\Modelos\bin\Debug\Modelos.dll
+C:\Users\Estudiante\Desktop\1-\peliculas visual\Modelos\bin\Debug\Modelos.pdb
+C:\Users\Estudiante\Desktop\1-\peliculas visual\Modelos\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Estudiante\Desktop\1-\peliculas visual\Modelos\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Estudiante\Desktop\1-\peliculas visual\Modelos\obj\Debug\Modelos.csproj.AssemblyReference.cache
+C:\Users\Estudiante\Desktop\1-\peliculas visual\Modelos\obj\Debug\Modelos.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\Desktop\1-\peliculas visual\Modelos\obj\Debug\Modelos.csproj.Up2Date
+C:\Users\Estudiante\Desktop\1-\peliculas visual\Modelos\obj\Debug\Modelos.dll
+C:\Users\Estudiante\Desktop\1-\peliculas visual\Modelos\obj\Debug\Modelos.pdb
