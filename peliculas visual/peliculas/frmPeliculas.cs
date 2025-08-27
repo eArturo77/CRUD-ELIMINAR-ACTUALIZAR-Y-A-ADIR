@@ -35,12 +35,26 @@ namespace peliculas
 
         private void btmAgregar_Click(object sender, EventArgs e)
         {
-            Peliculas p = new Peliculas();
-            p.NombrePeliculas = txtNombre.Text;
-            p.FechaLanzamiento = dtpFechaEstreno.Value;
-            p.Director = txtDirector.Text;
-            p.InsertarPeliculas();
-            MostrarPeliculas();
+            try
+            {
+                Peliculas p = new Peliculas();
+                p.NombrePeliculas = txtNombre.Text;
+                p.Director = txtDirector.Text;
+                p.FechaLanzamiento = dtpFechaEstreno.Value;
+
+                if (p.InsertarPeliculas())
+                {
+                    MessageBox.Show("Película insertada correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Error al insertar la película", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error inesperado: " + ex.Message, "Excepción", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)

@@ -74,7 +74,7 @@
             // txtNombre
             // 
             this.txtNombre.Location = new System.Drawing.Point(345, 69);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(2);
             this.txtNombre.Multiline = true;
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(207, 19);
@@ -83,7 +83,7 @@
             // txtDirector
             // 
             this.txtDirector.Location = new System.Drawing.Point(344, 132);
-            this.txtDirector.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDirector.Margin = new System.Windows.Forms.Padding(2);
             this.txtDirector.Multiline = true;
             this.txtDirector.Name = "txtDirector";
             this.txtDirector.Size = new System.Drawing.Size(208, 19);
@@ -92,7 +92,7 @@
             // dtpFechaEstreno
             // 
             this.dtpFechaEstreno.Location = new System.Drawing.Point(350, 189);
-            this.dtpFechaEstreno.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtpFechaEstreno.Margin = new System.Windows.Forms.Padding(2);
             this.dtpFechaEstreno.Name = "dtpFechaEstreno";
             this.dtpFechaEstreno.Size = new System.Drawing.Size(202, 20);
             this.dtpFechaEstreno.TabIndex = 5;
@@ -100,18 +100,18 @@
             // btmAgregar
             // 
             this.btmAgregar.Location = new System.Drawing.Point(114, 266);
-            this.btmAgregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btmAgregar.Margin = new System.Windows.Forms.Padding(2);
             this.btmAgregar.Name = "btmAgregar";
             this.btmAgregar.Size = new System.Drawing.Size(85, 33);
             this.btmAgregar.TabIndex = 6;
-            this.btmAgregar.Text = "Agregar";
+            this.btmAgregar.Text = "Insertar";
             this.btmAgregar.UseVisualStyleBackColor = true;
             this.btmAgregar.Click += new System.EventHandler(this.btmAgregar_Click);
             // 
             // btnActualizar
             // 
             this.btnActualizar.Location = new System.Drawing.Point(313, 266);
-            this.btnActualizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnActualizar.Margin = new System.Windows.Forms.Padding(2);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(82, 33);
             this.btnActualizar.TabIndex = 7;
@@ -122,7 +122,7 @@
             // btnEliminar
             // 
             this.btnEliminar.Location = new System.Drawing.Point(512, 266);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(78, 33);
             this.btnEliminar.TabIndex = 8;
@@ -135,7 +135,7 @@
             this.dgvPeliculas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvPeliculas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPeliculas.Location = new System.Drawing.Point(116, 330);
-            this.dgvPeliculas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvPeliculas.Margin = new System.Windows.Forms.Padding(2);
             this.dgvPeliculas.Name = "dgvPeliculas";
             this.dgvPeliculas.ReadOnly = true;
             this.dgvPeliculas.RowHeadersVisible = false;
@@ -162,7 +162,7 @@
             this.Controls.Add(this.lblDirector);
             this.Controls.Add(this.lblNombrePelicula);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "frmPeliculas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

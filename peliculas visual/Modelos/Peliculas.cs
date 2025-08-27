@@ -33,19 +33,28 @@ namespace Modelos
         public bool InsertarPeliculas()
         {
             SqlConnection con = conexion.Conectar();
-            string comando = "Insert into Peliculas (nombrePeliculas, director, fechaLanzamiento)" + "values (@nombre, @Director, @fechaLanzamiento);";
-            SqlCommand cmd = new SqlCommand(comando, con);
-            cmd.Parameters.AddWithValue("@nombre", nombrePeliculas);
+
+            SqlCommand cmd = new SqlCommand("sp_InsertarPelicula", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            cmd.Parameters.AddWithValue("@nombrePeliculas", nombrePeliculas);
             cmd.Parameters.AddWithValue("@director", director);
             cmd.Parameters.AddWithValue("@fechaLanzamiento", fechaLanzamiento);
 
-
-            if (cmd.ExecuteNonQuery() > 0)
+            try
             {
-                return true;
+                if (cmd.ExecuteNonQuery() > 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
-            else
+            catch (Exception ex)
             {
+                Console.WriteLine("Error: " + ex.Message);
                 return false;
             }
 
