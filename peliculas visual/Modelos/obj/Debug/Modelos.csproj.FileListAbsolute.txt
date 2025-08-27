@@ -25,3 +25,12 @@ C:\Users\usuario\Desktop\CRUD-ELIMINAR-ACTUALIZAR-Y-A-ADIR\peliculas visual\Mode
 C:\Users\usuario\Desktop\CRUD-ELIMINAR-ACTUALIZAR-Y-A-ADIR\peliculas visual\Modelos\obj\Debug\Modelos.csproj.Up2Date
 C:\Users\usuario\Desktop\CRUD-ELIMINAR-ACTUALIZAR-Y-A-ADIR\peliculas visual\Modelos\obj\Debug\Modelos.dll
 C:\Users\usuario\Desktop\CRUD-ELIMINAR-ACTUALIZAR-Y-A-ADIR\peliculas visual\Modelos\obj\Debug\Modelos.pdb
+C:\Users\usuario\Desktop\CRUD\peliculas visual\Modelos\bin\Debug\Modelos.dll
+C:\Users\usuario\Desktop\CRUD\peliculas visual\Modelos\bin\Debug\Modelos.pdb
+C:\Users\usuario\Desktop\CRUD\peliculas visual\Modelos\bin\Debug\System.Data.SqlClient.dll
+C:\Users\usuario\Desktop\CRUD\peliculas visual\Modelos\bin\Debug\System.Data.SqlClient.xml
+C:\Users\usuario\Desktop\CRUD\peliculas visual\Modelos\obj\Debug\Modelos.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\CRUD\peliculas visual\Modelos\obj\Debug\Modelos.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\CRUD\peliculas visual\Modelos\obj\Debug\Modelos.csproj.Up2Date
+C:\Users\usuario\Desktop\CRUD\peliculas visual\Modelos\obj\Debug\Modelos.dll
+C:\Users\usuario\Desktop\CRUD\peliculas visual\Modelos\obj\Debug\Modelos.pdb

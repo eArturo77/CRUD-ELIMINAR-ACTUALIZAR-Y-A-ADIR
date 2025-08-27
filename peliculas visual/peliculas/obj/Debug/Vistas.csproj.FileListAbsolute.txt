@@ -38,3 +38,16 @@ C:\Users\usuario\Desktop\CRUD-ELIMINAR-ACTUALIZAR-Y-A-ADIR\peliculas visual\peli
 C:\Users\usuario\Desktop\CRUD-ELIMINAR-ACTUALIZAR-Y-A-ADIR\peliculas visual\peliculas\obj\Debug\Vistas.csproj.Up2Date
 C:\Users\usuario\Desktop\CRUD-ELIMINAR-ACTUALIZAR-Y-A-ADIR\peliculas visual\peliculas\obj\Debug\peliculas.exe
 C:\Users\usuario\Desktop\CRUD-ELIMINAR-ACTUALIZAR-Y-A-ADIR\peliculas visual\peliculas\obj\Debug\peliculas.pdb
+C:\Users\usuario\Desktop\CRUD\peliculas visual\peliculas\bin\Debug\peliculas.exe.config
+C:\Users\usuario\Desktop\CRUD\peliculas visual\peliculas\bin\Debug\peliculas.exe
+C:\Users\usuario\Desktop\CRUD\peliculas visual\peliculas\bin\Debug\peliculas.pdb
+C:\Users\usuario\Desktop\CRUD\peliculas visual\peliculas\bin\Debug\Modelos.dll
+C:\Users\usuario\Desktop\CRUD\peliculas visual\peliculas\bin\Debug\Modelos.pdb
+C:\Users\usuario\Desktop\CRUD\peliculas visual\peliculas\obj\Debug\Vistas.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\CRUD\peliculas visual\peliculas\obj\Debug\peliculas.frmPeliculas.resources
+C:\Users\usuario\Desktop\CRUD\peliculas visual\peliculas\obj\Debug\peliculas.Properties.Resources.resources
+C:\Users\usuario\Desktop\CRUD\peliculas visual\peliculas\obj\Debug\Vistas.csproj.GenerateResource.cache
+C:\Users\usuario\Desktop\CRUD\peliculas visual\peliculas\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\CRUD\peliculas visual\peliculas\obj\Debug\Vistas.csproj.Up2Date
+C:\Users\usuario\Desktop\CRUD\peliculas visual\peliculas\obj\Debug\peliculas.exe
+C:\Users\usuario\Desktop\CRUD\peliculas visual\peliculas\obj\Debug\peliculas.pdb

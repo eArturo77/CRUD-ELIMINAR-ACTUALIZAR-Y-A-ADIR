@@ -11,7 +11,7 @@ namespace Modelos
     public class conexion
     {
         private static string servidor = "DESKTOP-TCJKT2C\\SQLEXPRESS";
-        private static string baseDeDatos = "Cine";
+        private static string baseDeDatos = "Cine1";
         private static string cadena;
 
         public static SqlConnection Conectar()

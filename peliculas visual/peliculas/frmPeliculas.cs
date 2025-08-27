@@ -37,23 +37,24 @@ namespace peliculas
         {
             try
             {
-                Peliculas p = new Peliculas();
-                p.NombrePeliculas = txtNombre.Text;
-                p.Director = txtDirector.Text;
-                p.FechaLanzamiento = dtpFechaEstreno.Value;
+                Peliculas nuevaPelicula = new Peliculas();
 
-                if (p.InsertarPeliculas())
+                nuevaPelicula.NombrePeliculas = txtNombre.Text;
+                nuevaPelicula.Director = txtDirector.Text;
+                nuevaPelicula.FechaLanzamiento = dtpFechaEstreno.Value;
+
+                if (nuevaPelicula.InsertarPeliculas())
                 {
                     MessageBox.Show("Película insertada correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
-                    MessageBox.Show("Error al insertar la película", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("No se pudo insertar la película", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error inesperado: " + ex.Message, "Excepción", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error: " + ex.Message, "Excepción", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

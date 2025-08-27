@@ -32,32 +32,22 @@ namespace Modelos
         }
         public bool InsertarPeliculas()
         {
-            SqlConnection con = conexion.Conectar();
-
-            SqlCommand cmd = new SqlCommand("sp_InsertarPelicula", con);
-            cmd.CommandType = CommandType.StoredProcedure;
-
-            cmd.Parameters.AddWithValue("@nombrePeliculas", nombrePeliculas);
-            cmd.Parameters.AddWithValue("@director", director);
-            cmd.Parameters.AddWithValue("@fechaLanzamiento", fechaLanzamiento);
-
-            try
+            using (SqlConnection con = conexion.Conectar())
             {
-                if (cmd.ExecuteNonQuery() > 0)
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error: " + ex.Message);
-                return false;
-            }
+                string comando = "INSERT INTO Peliculas (nombrePeliculas, director, fechaLanzamiento) " +
+                                 "VALUES (@nombre, @director, @fechaLanzamiento);";
 
+                using (SqlCommand cmd = new SqlCommand(comando, con))
+                {
+                    cmd.Parameters.AddWithValue("@nombre", nombrePeliculas);
+                    cmd.Parameters.AddWithValue("@director", director);
+                    cmd.Parameters.AddWithValue("@fechaLanzamiento", fechaLanzamiento);
+
+                    int filasAfectadas = cmd.ExecuteNonQuery();
+                    return filasAfectadas > 0;
+                }
+
+            }
         }
         public bool eliminarPelicula(int id)
         {
